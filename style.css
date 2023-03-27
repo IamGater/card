@@ -4,37 +4,121 @@
     padding: 0;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+.block {
+/* Style for "Прямоуголь" */
+width: 300px;
+height: 325px;
+border: 1px solid #e8e8e8;
+background-color: #ffffff;
+justify-content: center;
 }
 
-.container{
-    max-width: 1300px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
+.tarif {
+/* Style for "Тариф мини" */
+width: 122px;
+height: 16px;
+color: #212121;
+font-family: "Museo Sans Cyrl -300";
+font-size: 16px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 20px;
+text-align: center;
+margin: 0 auto;
+padding-top: 30px;
+/* Text style for "Тариф мини" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
 }
-.block {
-    width: 270px;
-    background-color: black;
-    padding-left: 17px;
-    padding-right: 17px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+
+.zina{
+    /* Style for "9 000" */
+width: 125px;
+height: 36px;
+color: #5ba2a9;
+font-family: "Museo Sans Cyrl -500";
+font-size: 48px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 20px;
+text-align: center;
+padding-top: 40px;
+padding-left: 80px;
+/* Text style for "9,  000" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
 }
-img{
-    width: 100%;
+
+.rub{
+    /* Style for "руб." */
+width: 32px;
+height: 17px;
+color: #5ba2a9;
+font-family: "Museo Sans Cyrl -300";
+font-size: 18px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 20px;
+text-align: center;
+padding-top: 25px;
+padding-left: 180px;
+/* Text style for "руб." */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
 }
-.skull {
-    border: 1px solid;
-    background-color: aquamarine;
-    width: 236px;
+
+.shari{
+    /* Style for "Шары 30 шт" */
+width: 201px;
+height: 114px;
+color: #454545;
+font-family: "Museo Sans Cyrl -300";
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: center;
+margin: 0 auto;
+padding-top: 50px;
+/* Text style for "Шары 30 шт" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
 }
-.Redmi_Note_10 {
-    border: 1px solid;
-    background-color: aquamarine;
-    width: 236px;
+
+.knopka{
+    /* Style for "Прямоуголь" */
+width: 200px;
+height: 54px;
+border: 2px solid #e8e8e8;
+background-color: #ffffff;
+margin: 0 auto;
+}
+
+.usluga{
+    /* Style for "Заказать у" */
+width: 141px;
+height: 12px;
+color: #5a5a5a;
+font-family: "Museo Sans Cyrl -700";
+font-size: 16px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 20px;
+text-align: center;
+text-transform: uppercase;
+margin: 0 auto;
+padding-top: 7px;
+/* Text style for "З, аказать" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
 }
